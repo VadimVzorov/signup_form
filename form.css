@@ -1,0 +1,100 @@
+body {
+	background-color: #4496e4;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 35px;
+	margin-top: 35px;
+}
+
+.seaform {
+	display: block;
+	width: 400px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+	border-radius: 2px;
+	border: none;
+	padding: 0px 40px 0px 40px;
+}
+
+h1{
+	font-weight: 100;
+	text-align: center;
+	font-size: 40px;
+	color: grey;
+	padding-top: 40px;
+}
+
+.su_form input, .fpassword{
+	display: block;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.su_form input{
+	width: 320px;
+	border: 2px solid #e5dcdc;
+	border-radius: 3px;
+	transition: background-color 1s;
+
+}
+
+.su_form input:valid{
+	background-color: #15CD72;
+}
+
+.su_form label{
+	display: block;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+button{
+	display: block;
+	box-sizing: border-box;
+	background-color: #15CD72;
+	width: 320px;
+	border-radius: 2px;
+	padding: 15px;
+	height: 55px;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	margin-top: 15px;
+	border: none;
+	transition: background-color 1s;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #14ba67;
+}
+
+.fpassword{
+	font-size: 15px;
+	text-decoration: underline;
+	color: grey;
+	text-align: center;
+	padding-bottom: 40px;
+}	
+
+p {
+ color: white;
+ text-align: center;
+ margin: 15px;
+ font-weight: bold;
+ font-size: 15px;
+ text-decoration: none;
+}
+
+p > .login {
+	text-decoration: underline;
+	color: white;
+}
